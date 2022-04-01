@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://gleaming-pasca-4680f0.netlify.app/)
 
 ## My process
 
@@ -39,7 +39,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Useful resources
 
 - [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me for flex box. 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
 
 
 ## Author
