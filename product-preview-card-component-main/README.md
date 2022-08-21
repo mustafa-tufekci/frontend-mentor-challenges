@@ -23,8 +23,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-responsive-with-flexbox-kiZo5kUkjf](https://www.frontendmentor.io/solutions/product-preview-card-component-responsive-with-flexbox-kiZo5kUkjf)
+- Live Site URL: [https://hilarious-custard-be59f0.netlify.app/](https://hilarious-custard-be59f0.netlify.app/)
 
 ## My process
 
