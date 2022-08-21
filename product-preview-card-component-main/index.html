@@ -11,25 +11,19 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
     <div class="card">
       <div class="card-image">
-        <img
-          src="./images/image-product-desktop.jpg"
-          alt=""
-          class="desktop-image"
-        />
-        <img
+        <picture>
+          <source media="(min-width: 600px)" srcset="/images/image-product-desktop.jpg">
+          <img
           src="./images/image-product-mobile.jpg"
           alt=""
-          class="mobile-image"
+          class="desktop-image mobile-image"
         />
+        </picture>
       </div>
       <div class="card-content">
         <p class="subtitle">PERFUME</p>
@@ -44,7 +38,7 @@
             <p class="card-price-old">$169.99</p>
           </div>
           <button class="cart-btn">
-            <span class="cart-icon"></span>
+            <img src="./images/icon-cart.svg" alt="" class="cart-icon">
             Add to Cart
           </button>
         </div>
