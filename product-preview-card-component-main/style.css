@@ -134,7 +134,7 @@ p {
     width: 100%;
   }
 
-  h1 {
+  .card-title {
     margin: 0.5rem 0;
     margin-top: 0;
   }
