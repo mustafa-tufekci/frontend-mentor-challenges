@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --blue-main-bg: hsl(217, 54%, 11%);
+  --blue-card-bg: hsl(216, 50%, 16%);
+  --blue-line: hsl(215, 32%, 27%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --font-size: 18px;
+  --font-family: "Outfit", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size); /* 18px */
+  background: var(--blue-main-bg);
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover,
+a:focus {
+  color: var(--cyan);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* OVERLAY */
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: var(--cyan);
+  border-radius: 12px;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  filter: invert(95%) sepia(81%) saturate(3476%) hue-rotate(181deg) brightness(127%) contrast(98%);
+}
+/* Layout */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 300px;
+  background: var(--blue-card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.card-info {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.card-info li {
+  display: flex;
+  align-items: center;
+}
+
+.card-info li img {
+  margin-right: 5px;
+}
+
+.price {
+  color: var(--cyan);
+  font-weight: 700;
+}
+
+.time-left {
+  color: var(--soft-blue);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 300;
+}
+
+.card-footer span {
+  color: var(--soft-blue);
+}
+
+.avatar {
+  height: 2em;
+  width: 2em;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Typ */
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-body {
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+.line {
+  border-bottom: 1px solid var(--blue-line);
+}
