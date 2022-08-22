@@ -23,8 +23,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-responsive-with-flexbox-kiZo5kUkjf](https://www.frontendmentor.io/solutions/product-preview-card-component-responsive-with-flexbox-kiZo5kUkjf)
-- Live Site URL: [https://hilarious-custard-be59f0.netlify.app/](https://hilarious-custard-be59f0.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-flexbox-wyBAb1ax-z](https://www.frontendmentor.io/solutions/nft-preview-card-component-flexbox-wyBAb1ax-z)
+- Live Site URL: [https://meek-moxie-19e22d.netlify.app/](https://meek-moxie-19e22d.netlify.app/)
 
 ## My process
 
