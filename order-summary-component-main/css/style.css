@@ -1,0 +1,162 @@
+:root {
+  --pale-b: hsl(225, 100%, 94%);
+  --bright-b: hsl(245, 75%, 52%);
+  --very-pale-b: hsl(225, 100%, 98%);
+  --desaturated-b: hsl(224, 23%, 55%);
+  --dark-b: hsl(223, 47%, 23%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typograph*/
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.plan-type,
+.plan-price,
+.change {
+  font-size: 0.9rem;
+}
+
+.plan-type {
+  font-weight: 900;
+}
+
+.plan-price {
+  color: var(--desaturated-b);
+}
+
+.change {
+  color: var(--bright-b);
+  font-weight: 700;
+}
+
+.change:hover,
+.change:focus {
+  color: #766cf1;
+}
+
+.order-btn {
+  background: var(--bright-b);
+  color: white;
+  padding: 15px 35px;
+  width: 100%;
+  cursor: pointer;
+  border: 0;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.71);
+}
+
+.order-btn:hover {
+  background: #766cf1;
+}
+
+.cancel-btn {
+  display: inline-block;
+  margin: 1.5rem 0 1rem 0;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--desaturated-b);
+}
+
+.cancel-btn:hover,
+.cancel-btn:focus {
+  color: #4f6075;
+}
+
+/**/
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("images/pattern-background-desktop.svg"), var(--pale-b);
+  background-position: top left;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  max-width: 350px;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.img-container img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-text {
+  color: var(--desaturated-b);
+  padding: 0 1rem;
+  margin: 1.2rem 0 1.5rem 0;
+}
+
+.card-payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  margin: 1rem 0;
+  background: var(--very-pale-b);
+  padding: 1rem;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 375px) {
+  .card {
+    max-width: 450px;
+  }
+
+  .card-text {
+    padding: 0 2rem;
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .card-content {
+    padding: 2.5rem 3.125rem 3.125rem;
+  }
+
+  .cancel-btn {
+    margin: 0;
+    margin-top: 1.5rem;
+  }
+}
